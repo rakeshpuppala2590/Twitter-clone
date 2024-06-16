@@ -147,11 +147,7 @@
   justify-content: space-between;
 }
 
-.floating-label {
-  position: relative;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+
 
 .floating-input {
   border: 1px solid #d1d5db; /* Tailwind 'border-gray-300' */

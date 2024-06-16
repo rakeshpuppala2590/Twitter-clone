@@ -21,6 +21,17 @@
   min-height: 100vh; /* Adjusted to ensure the height of the component is 100% of the viewport height */
 }
 
+
+
+
+.p-8 {
+  padding: 2rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -150,7 +161,6 @@
 .floating-label {
   position: relative;
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .floating-input {
@@ -196,6 +206,10 @@
 
 .button-container > button {
   width: 48%; /* Ensures buttons are side by side with some space between */
+}
+
+.toggle-span {
+  margin-top: 1rem; /* Increased margin-top for the toggle */
 }
 
 .App {

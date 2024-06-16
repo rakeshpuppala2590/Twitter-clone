@@ -24,6 +24,9 @@
 .w-full {
   width: 100%;
 }
+.toggle-span {
+  margin-bottom: 1rem; /* Increased margin-bottom for the toggle */
+}
 
 .text-center {
   text-align: center;
@@ -150,7 +153,6 @@
 .floating-label {
   position: relative;
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .floating-input {

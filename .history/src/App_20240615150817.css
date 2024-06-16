@@ -21,6 +21,10 @@
   min-height: 100vh; /* Adjusted to ensure the height of the component is 100% of the viewport height */
 }
 
+
+
+
+
 .w-full {
   width: 100%;
 }
@@ -33,22 +37,7 @@
   margin-bottom: 2rem;
 }
 
-.text-2xl {
-  font-size: 2rem; /* Increased font size */
-}
 
-.font-semibold {
-  font-weight: 600;
-}
-
-.bg-gray-100 {
-  background-color: #f7fafc;
-}
-
-.border {
-  border-width: 1px;
-  border-color: #e2e8f0;
-}
 
 .border-gray-300 {
   border-color: #d1d5db;
@@ -150,7 +139,6 @@
 .floating-label {
   position: relative;
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 .floating-input {
@@ -196,6 +184,10 @@
 
 .button-container > button {
   width: 48%; /* Ensures buttons are side by side with some space between */
+}
+
+.toggle-span {
+  margin-top: 1rem; /* Increased margin-top for the toggle */
 }
 
 .App {

@@ -7,7 +7,9 @@ import reportWebVitals from './reportWebVitals';
 const root = createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="bg-overlay"> {/* Add this wrapper div */}
+      <Signin /> {/* Render your Signin component here */}
+    </div>
   </React.StrictMode>
 );
 
